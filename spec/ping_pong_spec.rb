@@ -17,4 +17,7 @@ describe ('Fixnum#ping_pong') do
     
 end
 
-
+# total = 0
+# 6.times() do |time|
+#     total = total.+(time)
+#     end

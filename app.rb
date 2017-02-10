@@ -8,6 +8,6 @@ require('sinatra')
   end
 
   get('/pongout') do
-    @pingput = params.fetch('pingput').ping_pong()
+    @ponginput = params.fetch('ponginput').ping_pong()
     erb(:pongout)
   end
